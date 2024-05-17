@@ -11,4 +11,7 @@ public class ProductPage {
 		return craeteProductImgBtn;
 	}
 
+	@FindBy(name="searchBtn")
+	private WebElement ele3;
+	
 }
