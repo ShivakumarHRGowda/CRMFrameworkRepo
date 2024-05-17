@@ -17,6 +17,9 @@ public class HomePage {
 	@FindBy(xpath =  "(//a[text()='Contacts'])[1]")
 	private WebElement contactLink;
 	
+	@FindBy(linkText="Products")
+	private WebElement productLink;
+	
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
 	
@@ -56,6 +59,10 @@ public class HomePage {
 
 	public WebElement getSingoutLink() {
 		return singoutLink;
+	}
+
+	public WebElement getProductLink() {
+		return productLink;
 	}
 
 	public void createCampaign() {
