@@ -10,5 +10,9 @@ public class ProductPage {
 	public WebElement getCraeteProductImgBtn() {
 		return craeteProductImgBtn;
 	}
+	
+	@FindBy(name="search")
+	private WebElement ele2;
+	
 
 }
